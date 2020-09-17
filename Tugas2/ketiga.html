@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>Task</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+        <div class="baru">
+    <ul>
+        <li><a href="Homepage.html" >Home</a></li>
+        <li><a href="ketiga.html" >Tugas 2</a></li>
+    </ul>
+    </div>
+<font face=arial size=6 color=maroon>
+                <b>Notasi Big O<br>
+                <font face=arial size=4 color=blue>
+<hr><p>
+                <font face=verdana size=5 color=purple>
+Algoritma-Notasi Big O<br>
+<font size=3 color=black>
+                <p style="text-align: justify;"> Notasi Big-O berfungsi dalam mengkategorikan algoritma ke fungsi yang menggambarkan upper limit atau batas atas dari pertumbuhan sebuah fungsi ketika masukan dari fungsi tersebut bertambah banyak dengan menggunakan fungsi Big-O. Disini nanti kompleksitas algoritma akan dinilai dengan Notasi Big O yang terdiri dari time complexity atau berapa lama algoritma itu jalan, space complexity atau berapa banyak memori yang bakal dipakai oleh algoritma. Notasi ini diperkenalkan oleh Paul Bachmann, pertama kali di Jerman, pada tahun 1894.</p>
+
+<p style="text-align: justify;"> Algoritma kadang melakukan jumlah operasi yang sama pada setiap kali pemanggilannya yang ternyata memerlukan waktu yang konstan. Selain itu ada juga algoritma lain yang melakukan jumlah operasi yang berbeda, tergantung dari jumlah input pada parameter seperti pemanggilan berurutan (sequence), maka dapat dipahami bahwa jumlah operasi yang dilakukannya tergantung dari jumlah pemanggilan. Dan disini harus memperhitungkan parameter yang nilainya mempengaruhi jumlah operasi yang dilakukan (problem size, kadang juga disebut input size).</p>
+ 
+<p style="text-align: justify;">Maka saat mengukur kompleksitas algoritma, bukan jumlah operasi yang tepat yang kita perlukan, namun bagaimana hubungan antara jumlah operasi tersebut dengan problem size-nya. Sehingga ketika ditemukan problem size-nya double, cari tahu apakah jumlah operasi akan tetap dua kali lipat atau akan bekembang dengan cara tertentu. Pada algoritma yang memerlukan waktu yang konstan, melipatgandakan problem size tidak mempengaruhi jumlah operasi yang dilakukan. Apalagi ketika terdapat worst case atau kasus terburuk, yang maksudnya terdapat jumlah operasi terbanyak yang mungkin dilakukan oleh algoritma untuk problem size yang diberikan.</p>
+<hr><p>
+                <font face=verdana size=5 color=purple>Notasi Big O bisa dicontohkan seperti :<br>
+<font size=3 color=black>
+                <p style="text-align: justify;"> O(1), O(N), O(N^2), O(N^3), O(sqrt(N)), O(log N), O(N log N), O(N!), O(2^N)</p>
+                <p style="text-align: justify;"> Kecepatan program yang diinginkan seorang programmer adalah O(1) yang maksudnya bagaimanapun kompleksnya suatu program kecepatannya tetap sama yaitu O(1), Sedangkan O(N) kecepatannya lambat. O(N) maksudnya waktu yang diperlukan sebanding atau berbanding lurus dengan banyaknya data, simplenya ada data berjumlah 10 yang selesai dalam 1 detik misalnya, maka ketika datanya 100 biji selesainya dalam 10 detik, jadi waktu yang diperlukan 10 kali, beda dengan O(1) berapapun data input selesainya tetap 1 detik. O(N^2) artinya kecepatan program menjadi N^2 atau berbanding parabolic, waktu yang diperlukan itu berbanding kuadrat dengan banyaknya data, artinya misal data sebanyak 10 selesai dalam 1 detik, maka data 100 selesai dalam 100 detik. (data 10 menjadi data 100, maka 10 x lipat, waktu jadi 10*10 = 100 kali).</p>
+<hr><p>
+                <font face=verdana size=5 color=purple>Kesimpulan<br>
+<font size=3 color=black>
+                <p style="text-align: justify;"> Sebagai kesimpulan, notasi O besar atau Big-O Notation merupakan metode untuk menghitung kompleksitas dari potongan kode yang kita buat. Sehingga dapat menumbuhkan kesadaran kita untuk mencari alternatif yang lebih baik sebelum data semakin besar dan berdampak kepada performa aplikasi yang kita buat.</p>
+<p style="text-align: justify;">Notasi O besar inipun tidak hanya semata berlaku di bagian kode yang kita tulis, namun di database pun berlaku. Jadi proses pengambilan data di database dengan sintaksis SQL yang dapat dianggap sebagai proses perulangan akan sangat tidak efektif jika di bagian algoritma kode kita kembali menggunakan perulangan. Maka proses tersebut akan menjadi O(n2) karena akan terdapat perulangan didalam perulangan.</p>
+
+</body>
+</html>
